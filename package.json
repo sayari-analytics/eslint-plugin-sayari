@@ -1,7 +1,7 @@
 {
   "name": "@sayari/eslint-plugin",
   "license": "ISC",
-  "version": "0.0.0",
+  "version": "0.0.1-rc.0",
   "description": "custom lint rules built for Sayari Graph",
   "author": "Sayari Analytics",
   "main": "index.js",
