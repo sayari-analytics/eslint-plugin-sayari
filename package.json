@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-sayari",
+  "name": "@sayari/eslint-plugin",
   "license": "ISC",
   "version": "0.0.0",
   "description": "custom lint rules built for Sayari Graph",

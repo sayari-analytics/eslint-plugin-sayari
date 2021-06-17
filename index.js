@@ -14,13 +14,13 @@ const allRules = {
 }
 
 const rulesConfig = {
-  plugins: ['sayari'],
+  plugins: ['@sayari'],
   parserOptions: {
     ecmaFeatures: { jsx: true }
   },
   rules: {
-    'sayari/strict-mui-imports': 2,
-    'sayari/no-unwrapped-jsx-text': 2
+    '@sayari/strict-mui-imports': 2,
+    '@sayari/no-unwrapped-jsx-text': 2
   }
 }
 
