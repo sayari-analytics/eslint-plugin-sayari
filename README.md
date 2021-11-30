@@ -56,3 +56,6 @@ Then configure the rules you want to use under the rules section.
 `no-unwrapped-jsx-text`:
   - requires that when JSX text shares a common parent with other elements, the text be wrapped in a `<span>` tag
   - this prevents issues with [this React bug](https://github.com/facebook/react/issues/11538#issuecomment-390386520) when conflicted with things like google translate
+
+`polyfill-resize-observer`:
+  - imorts the polyfill build from react-resize-detector to avoid browser compatability conflicts when accessing the ResizeObserver API
